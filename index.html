@@ -1,7 +1,7 @@
 <!-- GOALS:
-  1. A centered element
-  2. A list of summary features
-  3. A large image with an absolutely postioned caption
+Use of at least one pseudo class and one pseudo element
+Use of at least 3 different types of selectors
+Gallery images make use of the float property
   4. A table or form field styled with CSS
   5. A gallery of smaller images -->
 <!DOCTYPE html>
@@ -32,17 +32,18 @@
       </div>
       <div class="modules">
         <div class="module" id="features">
-          <h3> WILL SHELF LIFE DO FOR YOU?</h3>
-          <hr id="features-hr">
-          <ul>
-            <li>Increases life-span</li>
-            <li>Sense other <span id="rep">Replicants</span> close to you</li>
-            <li>Enhances eye-sight</li>
-          </ul>
+          <h3>what WILL SHELF LIFE DO FOR YOU?</h3>
+          <hr class="module-hr">
+          <div class="list">
+            <p>Increases life-span</p>
+            <p>Sense other <span id="rep">Replicants</span> close to you</p>
+            <p>Enhances eye-sight</p>
+          </div>
         </div>
         <form class="module" id="sign-up" action="index.html" method="post">
           <h3>find your local sanctuary </h3>
-          <hr>
+          <hr class="module-hr">
+        <div class="list2">
           <div id="address">
             <label for="street">address:</label>
             <input type="search">
@@ -55,6 +56,8 @@
           <label for="quadrant">quadrant:</label>
           <input type="search">
         </div>
+      </div>
+
 </div>
 
 

@@ -30,7 +30,9 @@ h1 {
 hr{
   height: 5px;
   border-color: blue;
-
+}
+ul{
+list-style-type: none;
 }
 .dove {
   /*background-color: green;*/
@@ -62,16 +64,32 @@ hr{
   width: 520px;
   height: 330px;
   margin: 30px;
+  background-color: rgb(61, 61, 61);
+  border-color: blue;
   border-radius: 5px;
   box-shadow: 0px 7px 5px -6px rgba(0,0,0,0.2);
+
+}
+.list{
+  padding-top: 50px;
+}
+.list2{
+  padding-top: 80px;
+  /*padding-left: 40px;*/
+  text-align: center;
+}
+h3{
+  text-align: center;
 }
 #sign-up{
-  float: left;
+  float: right;
+
   /*background-color: green;*/
 
 }
 #features {
-  float: right;
+  float: left;
+    text-align: center;
   /*background-color: pink;*/
 }
 
@@ -93,10 +111,10 @@ hr{
   font-size: 15pt;
 }
 
-#features-hr{
+/*.module-hr{
   height: 3px;
   border-color: blue;
-  width: 30%;
+  width: 30%;*/
 
   /*display: block;*/
   /*height: 1px;
