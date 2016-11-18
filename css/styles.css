@@ -1,0 +1,11 @@
+body {
+     border-bottom: 1px solid blue;
+     border-top: 1px solid blue;
+     background-color: black;
+     color: white;
+     font-family: 'Julius Sans One', sans-serif;
+}
+#bluebar {
+  color: blue;
+  font-size: 50px;
+}
