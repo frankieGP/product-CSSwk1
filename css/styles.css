@@ -1,13 +1,15 @@
-/*html{
-  box-sizing: border-box;
-  padding: 15;
-  margin: 5;
-}*/
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 body {
-    box-sizing: border-box;
      border-bottom: 1px solid blue;
      border-top: 1px solid blue;
+     background-image: url(../img/background4.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
      background-color: black;
      color: white;
      font-family: 'Julius Sans One', sans-serif;
@@ -20,13 +22,15 @@ body {
 }
 h1 {
   font-size: 40pt;
-
   text-align: right;
+  z-index: 9000
   /*background-color: lightblue;*/
 
 }
 hr{
+  height: 5px;
   border-color: blue;
+
 }
 .dove {
   /*background-color: green;*/
@@ -48,12 +52,29 @@ hr{
   text-align: center;
   text-shadow: 2px 1.5px 4px #FF0000;
   /*text-shadow: 2px 2px 3px #FF0000;*/
-
 }
 .shelf {
   font-size: 30pt;
   color: white;
 }
+
+.module {
+  width: 520px;
+  height: 330px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 7px 5px -6px rgba(0,0,0,0.2);
+}
+#sign-up{
+  float: left;
+  /*background-color: green;*/
+
+}
+#features {
+  float: right;
+  /*background-color: pink;*/
+}
+
 #dove-img{
   width: 500px;
   height: 500px;
@@ -66,34 +87,38 @@ hr{
 #bar {
   color: blue;
 }
-/*iframe {
-  font-family: 'Julius Sans One', sans-serif;
-  float: right;
-}*/
-#features{
-  background-color: ;
-}
+
 #rep{
   color: red;
   font-size: 15pt;
 }
 
 #features-hr{
-  display: block;
-  height: 1px;
+  height: 3px;
+  border-color: blue;
   width: 30%;
-  border: 0;
-  border-top: 2px solid blue;
+
+  /*display: block;*/
+  /*height: 1px;
+  border-top: 1px solid blue;
   margin: 1em 0;
-  padding: 0;
+  padding: 0;*/
  }
 #dove {
   position: relative;
 }
 
-
+#tyrell{
+  width: 100%;
+  /*margin-left: -60px;
+  margin-right: -90px;*/
+  margin-top: 800px;
+}
+.end-message{
+  clear: both;
+}
 /*
-
+.
 .clock {
   height:200px;
   position:absolute;
