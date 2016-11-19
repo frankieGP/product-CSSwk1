@@ -7,7 +7,6 @@
 body {
      border-bottom: 1px solid blue;
      border-top: 1px solid blue;
-     background-image: url(../img/background4.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      background-color: black;
@@ -53,6 +52,7 @@ list-style-type: none;
   margin-right: 50px;
   text-align: center;
   text-shadow: 2px 1.5px 4px #FF0000;
+
   /*text-shadow: 2px 2px 3px #FF0000;*/
 }
 .shelf {
@@ -64,10 +64,19 @@ list-style-type: none;
   width: 520px;
   height: 330px;
   margin: 30px;
-  background-color: rgb(61, 61, 61);
-  border-color: blue;
-  border-radius: 5px;
-  box-shadow: 0px 7px 5px -6px rgba(0,0,0,0.2);
+  /*background-color: rgb(61, 61, 61);*/
+  border: 2px solid red;
+  -webkit-box-shadow: 0px 10px 66px -5px rgba(255,0,0,1);
+  -moz-box-shadow: 0px 10px 66px -5px rgba(255,0,0,1);
+  box-shadow: 0px 10px 66px -5px rgba(255,0,0,1);
+  border-radius: 25px;
+}
+.other{
+  clear:both;
+}
+/*#tyrell{
+  height: 300px;
+  width: 200px;*/
 
 }
 .list{
@@ -77,6 +86,25 @@ list-style-type: none;
   padding-top: 80px;
   /*padding-left: 40px;*/
   text-align: center;
+}
+.btn {
+  font-size: 13pt;
+  display: inline-block;
+  padding: 0.74em 1.5em;
+  margin-top: 30px;
+  color: #fff;
+  border-width: 0 0 0 0;
+  border-bottom: 5px solid;
+  text-transform: uppercase;
+  background-color: red;
+  border-bottom-color: #7D47D0;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 300;
+
+}
+.btn:hover {
+  background-color: #2B0A7B;
+  border-bottom-color: #7D47D0;
 }
 h3{
   text-align: center;
@@ -92,7 +120,22 @@ h3{
     text-align: center;
   /*background-color: pink;*/
 }
-
+#dove2-img{
+  float: right;
+}
+#dove3-img{
+  float: left;
+}
+#eli{
+  float: left;
+}
+#uni{
+  float: right;
+}
+#tyrell{
+  position: relative;
+  left: 170px;
+}
 #dove-img{
   width: 500px;
   height: 500px;
@@ -126,12 +169,7 @@ h3{
   position: relative;
 }
 
-#tyrell{
-  width: 100%;
-  /*margin-left: -60px;
-  margin-right: -90px;*/
-  margin-top: 800px;
-}
+
 .end-message{
   clear: both;
 }
