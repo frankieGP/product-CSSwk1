@@ -19,6 +19,9 @@ body {
      margin-right: 60px;
 
 }
+.wrap{
+  min-width: 1300px;
+}
 h1 {
   font-size: 40pt;
   text-align: right;
@@ -108,6 +111,9 @@ list-style-type: none;
 }
 h3{
   text-align: center;
+}
+h3:first-letter{
+font-size: 30pt;
 }
 #sign-up{
   float: right;
