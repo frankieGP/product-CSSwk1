@@ -18,9 +18,10 @@ body {
   margin-right: 60px;
 
 }
-.wrap {
-  min-width: 1300px;
+strong::after {
+  content:"  !";
 }
+
 
 h1 {
   font-size: 40pt;
@@ -32,7 +33,7 @@ h3 {
   text-align: center;
 }
 
-h3:first-letter {
+h3::first-letter {
 font-size: 30pt;
 }
 
@@ -49,7 +50,8 @@ hr {
 
 .dove-text {
   color: blue;
-  position: relative;
+  position: absolute;
+  right: 200px;
   bottom: 200px;
   font-size: 50pt;
   margin-left: 50px;
@@ -78,7 +80,7 @@ hr {
   border-radius: 25px;
 }
 
-.other {
+.other{
   clear:both;
 }
 
@@ -120,7 +122,9 @@ hr {
   border-top: 1px solid blue;
   padding: 1px;
  }
-
+ .wrap {
+   min-width: 1300px;
+ }
 .end-message{
  clear: both;
  text-align: center;
@@ -193,7 +197,9 @@ hr {
 }
 
 
-
+#gimmespace {
+  margin-top: 350px;
+}
 #dove {
   position: relative;
 }
